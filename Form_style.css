@@ -1,0 +1,19 @@
+main{
+    border:1px solid black;
+    margin: 20px;
+}
+h2,h3{
+    background: #bfccff;
+    margin: 0px;
+    padding: 10px;
+}
+section{
+    border: 1px solid #ccccff;
+    border-radius: 8px;
+    padding-bottom: 15px;
+    margin: 15px;
+}
+.inp-grp{
+    margin-top: 14px;
+    padding: 0 20px 0px 20px;
+}
