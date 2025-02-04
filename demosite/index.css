@@ -1,0 +1,81 @@
+html{
+    background-color: #ebebeb;
+}
+body,p,h1,ul,h3{
+    margin: 0;
+    padding: 0;
+}
+body{
+    border: 1px solid black;
+    max-width: 800px;
+    margin: 20px auto;
+}
+header{
+    background-color: #a1ddf1;
+    text-align: right;
+    padding: 50px 50px 50px 0;
+    background-image: url(cover.jpg);
+}
+footer{
+    background-color: #a1ddf1;
+    text-align: center;
+    padding: 10px 0px;
+}
+main{
+    background-color: white;
+    padding: 10px;
+}
+nav{
+    border: 1px solid #b0aaaa;
+    border-bottom: 0;
+    background: #e7e7e7;
+    color: #050585;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0px;
+}
+
+main .wrapper{
+    display: flex;
+    margin-top: 10px;
+}
+.wrapper aside{
+    width: 180px;
+}
+.wrapper aside h3{
+    background-color: #a1ddf1;
+    padding: 10px 0px 10px 10px;
+}
+.wrapper aside section{
+    margin-bottom: 15px;
+    border: 1px solid #b0aaaa;
+}
+.wrapper aside ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper aside li{
+    padding: 5px 10px;
+}
+.wrapper aside p{
+    padding: 10px;
+}
+.wrapper article{
+    flex:1;
+    padding-left: 20px;
+}
+.puja{
+    display: flex;
+}
+.puja button{
+    padding: 7px 10px;
+    margin-top: 10px;
+    background-color: #a1ddf1;
+    border: 1px solid black;
+    border-radius: 10px;
+}
